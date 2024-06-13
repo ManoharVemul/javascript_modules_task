@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./mfavcon.png" type="image/x-icon">
+</head>
+<body>
+    
+<pre> <h1>Task:
+ write 4 or 5 programs of your choice using functions, 
+ export the file, import it into the main HTML page, and
+  perform dynamic operations by calling those function00s.
+</h1></pre>
+
+<script type="module">
+    // simple interest
+import simpleInterest from "./demo.js";
+console.log(`the required interest is ${simpleInterest(10000,3,10)}`)
+
+//named import
+import {a,b} from "./demo.js"
+
+console.log(a)
+console.log(b)
+
+   //compound  interest
+import {compoundInterest} from "./demo.js";
+console.log(`the required interest is ${compoundInterest(10000,3,10)}`)
+
+// minites to seconds
+
+import {minToSec} from "./demo.js";
+console.log(`the required seconds is ${minToSec(5)}`)
+
+// sum of natural numbers
+
+import {sum} from "./demo.js";
+console.log(`the sum of natural is  ${sum(100)}`)
+
+</script>
+
+
+
+
+</body>
+</html>
